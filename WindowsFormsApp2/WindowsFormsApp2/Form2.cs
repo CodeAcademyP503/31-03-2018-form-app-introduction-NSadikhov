@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
         public int yuxaridan_asagi = 4;
         public int soldan_saga = 11;
         public int top = 120;
         public int left = 180;
         public int oturacaq_sayi = 1;
-        public Button btn;
         public static List<Button> secilmis_oturacaq = new List<Button>();
         public static List<Button> secilmis_2 = new List<Button>();
         public static List<Button> secilmis_seans = new List<Button>();
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
             btnseans12.Click += new EventHandler(btnseans);
@@ -42,7 +41,7 @@ namespace WindowsFormsApp2
                                 Controls.Add(item);
                             }
                         }
-                        goster();   
+                        goster();
                     }
                     left = 160;
                     top += 40;
@@ -76,12 +75,12 @@ namespace WindowsFormsApp2
                                 Controls.Add(item);
                             }
                         }
-                            goster();
+                        goster();
                     }
                     left = 60;
                     top += 40;
                 }
-                else if(i==4)
+                else
                 {
                     soldan_saga = 17;
                     for (int a = 1; a <= soldan_saga; a++)
@@ -93,8 +92,8 @@ namespace WindowsFormsApp2
                                 Controls.Add(item);
                             }
                         }
-                            goster();
-                    }            
+                        goster();
+                    }
                 }
             }
             this.Height = yuxaridan_asagi * 40 + 270;
@@ -102,13 +101,13 @@ namespace WindowsFormsApp2
         }
         public void goster()
         {
-            btn = new Button();
+            var btn = new Button();
             btn.Width = 40;
             btn.Height = 40;
             btn.Left = left;
             left += 40;
-            btn.Name = "mk";
             btn.Top = top;
+            btn.Name = "mk";
             btn.BackColor = Color.DarkGray;
             btn.Text = oturacaq_sayi.ToString();
             Controls.Add(btn);
@@ -116,8 +115,10 @@ namespace WindowsFormsApp2
             btn.Click += new EventHandler(secmek);
             secilmis_2.Add(btn);
         }
-        public void btnseans(object sender,EventArgs e)
+
+        public void btnseans(object sender, EventArgs e)
         {
+
             var btn = sender as Button;
             if (btn.Name == "btnseans12")
             {
@@ -139,7 +140,7 @@ namespace WindowsFormsApp2
             var exit = new ana_sayfa();
             exit.Show();
         }
-        public void secmek(object sender,EventArgs e)
+        public void secmek(object sender, EventArgs e)
         {
             var btn = sender as Button;
             btn.BackColor = Color.Red;
@@ -152,8 +153,7 @@ namespace WindowsFormsApp2
         }
         public void rezerv(object sender, EventArgs e)
         {
-            
-            var rzrv = new rezerv();
+            var rzrv = new rezerv2();
             rzrv.Show();
         }
     }

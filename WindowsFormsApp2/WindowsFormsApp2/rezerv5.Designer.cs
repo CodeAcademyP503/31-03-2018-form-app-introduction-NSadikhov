@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class rezerv
+    partial class rezerv5
     {
         /// <summary>
         /// Required designer variable.
@@ -94,7 +94,7 @@
             this.yerler.Size = new System.Drawing.Size(100, 20);
             this.yerler.TabIndex = 14;
             // 
-            // rezerv
+            // rezerv5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,8 +107,8 @@
             this.Controls.Add(this.seans);
             this.Controls.Add(this.azn);
             this.Controls.Add(this.yerler);
-            this.Name = "rezerv";
-            this.Text = "rezerv";
+            this.Name = "rezerv5";
+            this.Text = "rezerv5";
             this.ResumeLayout(false);
             this.PerformLayout();
 

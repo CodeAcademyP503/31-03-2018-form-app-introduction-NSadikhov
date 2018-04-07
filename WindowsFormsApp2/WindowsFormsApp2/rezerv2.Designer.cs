@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class rezerv
+    partial class rezerv2
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@
             this.new_rezerv.Location = new System.Drawing.Point(55, 175);
             this.new_rezerv.Name = "new_rezerv";
             this.new_rezerv.Size = new System.Drawing.Size(251, 23);
-            this.new_rezerv.TabIndex = 20;
+            this.new_rezerv.TabIndex = 13;
             this.new_rezerv.Text = "Yeni Rezervation";
             this.new_rezerv.UseVisualStyleBackColor = true;
             // 
@@ -52,7 +52,7 @@
             this.label3.Location = new System.Drawing.Point(168, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
-            this.label3.TabIndex = 19;
+            this.label3.TabIndex = 12;
             this.label3.Text = "- Seans";
             // 
             // label2
@@ -61,7 +61,7 @@
             this.label2.Location = new System.Drawing.Point(168, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 13);
-            this.label2.TabIndex = 18;
+            this.label2.TabIndex = 11;
             this.label2.Text = "- AZN odenilecek mebleg.";
             // 
             // label1
@@ -70,7 +70,7 @@
             this.label1.Location = new System.Drawing.Point(168, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 13);
-            this.label1.TabIndex = 17;
+            this.label1.TabIndex = 10;
             this.label1.Text = "- Nomreli yerler rezerv edildi.";
             // 
             // seans
@@ -78,23 +78,23 @@
             this.seans.Location = new System.Drawing.Point(55, 119);
             this.seans.Name = "seans";
             this.seans.Size = new System.Drawing.Size(100, 20);
-            this.seans.TabIndex = 16;
+            this.seans.TabIndex = 9;
             // 
             // azn
             // 
             this.azn.Location = new System.Drawing.Point(55, 82);
             this.azn.Name = "azn";
             this.azn.Size = new System.Drawing.Size(100, 20);
-            this.azn.TabIndex = 15;
+            this.azn.TabIndex = 8;
             // 
             // yerler
             // 
             this.yerler.Location = new System.Drawing.Point(55, 44);
             this.yerler.Name = "yerler";
             this.yerler.Size = new System.Drawing.Size(100, 20);
-            this.yerler.TabIndex = 14;
+            this.yerler.TabIndex = 7;
             // 
-            // rezerv
+            // rezerv2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,8 +107,8 @@
             this.Controls.Add(this.seans);
             this.Controls.Add(this.azn);
             this.Controls.Add(this.yerler);
-            this.Name = "rezerv";
-            this.Text = "rezerv";
+            this.Name = "rezerv2";
+            this.Text = "rezerv2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
